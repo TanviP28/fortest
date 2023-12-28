@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Add </title>
+    <link rel="stylesheet" href="style2.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+<div class="img">
+<div class="container">
+    <div class="title">Add Student Information</div>
+    <div class="content">
+      <form  id="studentForm" name="studentForm" action="addstudent.jsp" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" id="student_name" name="student_name" placeholder="Enter Student Name" >
+          </div>
+          <div class="input-box">
+            <span class="details">Enter Student ID</span>
+            <input type="text"  id="student_id" name="student_id" placeholder="Student ID" >
+          </div>
+          <div class="input-box">
+            <span class="details">Date Of Birth</span>
+            <input type="text"  id="student_dob" name="student_dob" placeholder="Enter Birth Date" >
+          </div>
+          <div class="input-box">
+            <span class="details">Enter Marks of Physics</span>
+            <input type="text"  id="student_phy" name="student_phy"placeholder="Enter Valid Marks" >
+          </div>
+     
+<div class="input-box">
+            <span class="details">Enter Marks of Chemistry</span>
+            <input type="text"  id="student_chem" name="student_chem" placeholder="Enter Valid Marks" >
+          </div>
+      
+<div class="input-box">
+            <span class="details">Enter Marks of Mathematics</span>
+            <input type="text"  id="student_maths" name="student_maths" placeholder="Enter Valid Marks" >
+          </div>
+
+<div class="input-box">
+            <span class="details">Enter Marks of C Programming</span>
+            <input type="text"  id="student_c" name="student_c" placeholder="Enter Valid Marks" >
+          </div>
+
+<div class="input-box">
+            <span class="details">Enter Marks of Business Studies</span>
+            <input type="text"  id="student_bs" name="student_bs" placeholder="Enter Valid Marks" >
+          </div>
+  </div>
+        <div class="button">
+          <input type="button" id="submit" onclick="validateForm()" value="Add Information">
+        </div>
+      </form>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
